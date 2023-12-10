@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&family=Roboto&display=swap');
+
+* {
+  font-family: 'Roboto', 'Noto Color Emoji', sans-serif;
+  font-weight: 300;
+}
+
+html {
+  font-size: 12px;
+}
+
+/* main */
+.st-emotion-cache-z5fcl4 {
+  padding: 1rem 3rem;
+}
+
+/* side */
+.st-emotion-cache-16txtl3 {
+  padding-top: 1rem;
+}
+.st-emotion-cache-ysnqb2 {
+  padding: 1rem 0;
+}
+
+#MainMenu {
+  display: none;
+}
+
+/* menu */
+.st-emotion-cache-1ck8f3p {
+  background-color: transparent;
+}
+
+hr {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.stDeployButton {
+  display: none;
+}
+
+/* emoji */
+.st-emotion-cache-8hkptd {
+  padding-right: 1.5rem;
+}
+
+/* anchor */
+.st-emotion-cache-zgt99 {
+  display: none;
+}
+
+/* picture */
+.st-emotion-cache-1e043kk {
+  display: none;
+}
+
+/* footer */
+.st-emotion-cache-1u6vyrj {
+  display: none;
+}
