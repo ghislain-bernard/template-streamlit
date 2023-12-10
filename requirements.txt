@@ -1,0 +1,15 @@
+emoji
+pillow
+
+numpy
+pandas
+
+plotly
+
+streamlit==1.29.0
+
+mypy
+pylint
+yapf
+
+types-pillow
