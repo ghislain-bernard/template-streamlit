@@ -9,7 +9,6 @@ level = "error"
 
 [runner]
 
-fastReruns = true
 magicEnabled = false
 
 [server]
