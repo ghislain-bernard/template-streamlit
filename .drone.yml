@@ -3,11 +3,11 @@ type: docker
 
 steps:
   - name: test
-    image: python:3.11.7-slim-bookworm
+    image: python:3.11.8-slim-bookworm
     commands:
       - pwd
       - apt-get update
-      - apt-get --no-install-recommends --option=Dpkg::Use-Pty=0 install make
+      - DEBCONF_NOWARNINGS=yes apt-get --no-install-recommends --option=Dpkg::Use-Pty=0 install make
       - pip --version
       - pip --disable-pip-version-check install --requirement=requirements.txt --root-user-action=ignore
       - useradd --create-home user
