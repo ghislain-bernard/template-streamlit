@@ -1,13 +1,14 @@
 #!/usr/bin/env python3
 #--------------------------------------------- ghislain.bernard@gmail.com ---------------------------------------------#
 
+import string
 import sys
 import timeit
 import types
 
 import emoji # https://carpedm20.github.io/emoji/
 
-import PIL as pillow
+import PIL.Image as pillow
 
 import streamlit as st
 
@@ -34,7 +35,7 @@ def main():
   ########################
 
   st.title('Template', 'title')
-  st.image(pillow.Image.open('streamlit.webp'))
+  st.image(pillow.open('streamlit.webp'))
 
   st.button('Rerun')
 
@@ -73,6 +74,7 @@ def main():
   st.sidebar.markdown('### {}'.format(emoji.emojize(':gear:')))
 
   st.sidebar.number_input('number', 1, 9, 5, key='number')
+  st.sidebar.multiselect('letters', tuple(string.ascii_uppercase), key='letters', placeholder='none')
 
   options[option].run(verbose)
 
@@ -109,6 +111,15 @@ def run(verbose: bool):
     st.info('message = "{}"'.format(message), icon=emoji.emojize(':speech_balloon:'))
 
   st.markdown('# {}'.format(message))
+
+  #######################
+
+  letters: list[str] = st.session_state['letters']
+  if verbose:
+    st.info('letters = {}'.format(letters), icon=emoji.emojize(':speech_balloon:'))
+
+  if letters:
+    st.markdown('# :rainbow[{}]'.format('-'.join(letters)))
 
 #----------------------------------------------------------------------------------------------------------------------#
 
