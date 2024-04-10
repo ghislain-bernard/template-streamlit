@@ -6,7 +6,7 @@ max-line-length = 120
 
 [message control]
 
-disable = consider-using-f-string, missing-function-docstring, missing-module-docstring
+disable = consider-using-f-string, duplicate-code, missing-function-docstring, missing-module-docstring
 
 [reports]
 
