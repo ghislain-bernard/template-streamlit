@@ -20,4 +20,13 @@ def run(verbose: bool):
 
   st.markdown('# {}'.format(message))
 
+  #######################
+
+  letters: list[str] = st.session_state['letters']
+  if verbose:
+    st.info('letters = {}'.format(letters), icon=emoji.emojize(':speech_balloon:'))
+
+  if letters:
+    st.markdown('# :red[{}]'.format('-'.join(letters)))
+
 #--------------------------------------------- ghislain.bernard@gmail.com ---------------------------------------------#
