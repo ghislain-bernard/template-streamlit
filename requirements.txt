@@ -1,7 +1,7 @@
 emoji
 pillow
 
-streamlit==1.31.1
+streamlit==1.33.0
 
 mypy
 pylint
