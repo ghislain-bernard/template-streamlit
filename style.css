@@ -40,6 +40,11 @@ hr {
   display: none;
 }
 
+/* multiselect */
+.stMultiSelect span[role="button"] span:first-of-type {
+  max-width: 320px;
+}
+
 /* emoji */
 .st-emotion-cache-8hkptd {
   padding-right: 1.5rem;
