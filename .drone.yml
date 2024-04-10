@@ -3,7 +3,7 @@ type: docker
 
 steps:
   - name: test
-    image: python:3.11.8-slim-bookworm
+    image: python:3.11.9-slim-bookworm
     commands:
       - pwd
       - apt-get update
