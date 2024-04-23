@@ -1,4 +1,4 @@
-## template-stremlit
+## template-streamlit
 
 [![streamlit.webp](streamlit.webp)](https://streamlit.io) 
 
