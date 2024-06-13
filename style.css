@@ -10,16 +10,8 @@ html {
 }
 
 /* main */
-.st-emotion-cache-z5fcl4 {
+.st-emotion-cache-1jicfl2 {
   padding: 1rem 3rem;
-}
-
-/* side */
-.st-emotion-cache-16txtl3 {
-  padding-top: 1rem;
-}
-.st-emotion-cache-8atqhb {
-  padding: 1rem 0;
 }
 
 #MainMenu {
@@ -27,8 +19,17 @@ html {
 }
 
 /* menu */
-.st-emotion-cache-1ck8f3p {
+.st-emotion-cache-di3q58 {
   background-color: transparent;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: inherit;
 }
 
 hr {
@@ -41,7 +42,7 @@ hr {
 }
 
 /* multiselect */
-.stMultiSelect span[role="button"] span:first-of-type {
+.stMultiSelect span[role='button'] span:first-of-type {
   max-width: 320px;
 }
 
@@ -51,7 +52,7 @@ hr {
 }
 
 /* anchor */
-.st-emotion-cache-zgt99 {
+.st-emotion-cache-4ji2h3 {
   display: none;
 }
 
