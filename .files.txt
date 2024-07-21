@@ -13,6 +13,8 @@ module/blue.py
 module/red.py
 module/white.py
 style.css
+avatar.webp
+linkedin.webp
 streamlit.webp
 Makefile
 .drone.yml
