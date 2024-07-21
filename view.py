@@ -37,6 +37,8 @@ def main():
   st.title('Template', 'title')
   st.image(pillow.open('streamlit.webp'))
 
+  st.logo('linkedin.webp', icon_image='avatar.webp', link='https://www.linkedin.com/in/ghislain-bernard')
+
   st.button('Rerun')
 
   ########################
@@ -55,6 +57,8 @@ def main():
   timer: float = timeit.default_timer()
 
   ########################
+
+  st.sidebar.markdown('---')
 
   options: dict[str | None, types.ModuleType] = {
     None: sys.modules[__name__],
