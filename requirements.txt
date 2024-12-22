@@ -2,11 +2,10 @@ emoji
 pillow
 
 streamlit==1.38.0
+watchdog; sys_platform == 'darwin'
 
 mypy
 pylint
 yapf
 
 types-pillow
-
-watchdog
