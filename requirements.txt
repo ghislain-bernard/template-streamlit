@@ -8,3 +8,5 @@ pylint
 yapf
 
 types-pillow
+
+watchdog
