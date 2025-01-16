@@ -10,7 +10,7 @@ clean:
 	@echo ''
 	@echo -e '/!\ cleaning...'
 
-	rm --force --recursive --verbose module/__pycache__
+	$(RM) -rv module/__pycache__
 
 	@echo ...done
 
