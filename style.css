@@ -10,12 +10,13 @@ html {
 }
 
 /* main */
-.stMainBlockContainer
-{
+.stMainBlockContainer {
   padding: 1rem 3rem;
 }
-.stSidebar
-{
+.st-emotion-cache-uigp7v {
+  max-width: 516px;
+}s
+ {
   max-width: 516px;
 }
 
