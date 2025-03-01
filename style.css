@@ -9,6 +9,10 @@ html {
   font-size: 12px;
 }
 
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
 /* main */
 .stMainBlockContainer {
   padding: 1rem 3rem;
