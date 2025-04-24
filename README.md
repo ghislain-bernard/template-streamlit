@@ -1,6 +1,6 @@
 ## template-streamlit
 
-[![streamlit.webp](streamlit.webp)](https://streamlit.io) 
+[![streamlit.webp](streamlit.webp)](https://streamlit.io)
 
 ### usage
 
