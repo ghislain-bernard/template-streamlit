@@ -1,8 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-@font-face {
-  font-family: 'Noto Color Emoji';
-  src: url('app/static/NotoColorEmoji-SVG.otf') format('opentype');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap')
+supports(font-tech(color-COLRv1));
+
+@supports not (font-tech(color-COLRv1)) {
+  @font-face {
+    font-family: 'Noto Color Emoji';
+    src: url('app/static/NotoColorEmoji-SVG.otf') format('opentype');
+  }
 }
 
 * {
