@@ -13,6 +13,7 @@ magicEnabled = false
 
 [server]
 
+enableStaticServing = true
 headless = true
 runOnSave = true
 
