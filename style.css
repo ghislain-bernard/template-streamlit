@@ -1,4 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@font-face {
+  font-family: 'Noto Color Emoji';
+  src: url('app/static/NotoColorEmoji-SVG.otf') format('opentype');
+}
 
 * {
   font-family: 'Roboto', 'Noto Color Emoji', sans-serif !important;
@@ -27,6 +32,7 @@ body {
 #MainMenu {
   display: none;
 }
+
 .st-emotion-cache-di3q58 {
   background-color: transparent;
 }
