@@ -12,6 +12,7 @@ module/__init__.py
 module/blue.py
 module/red.py
 module/white.py
+static/NotoColorEmoji-SVG.otf
 style.css
 avatar.webp
 linkedin.webp
