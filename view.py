@@ -39,7 +39,7 @@ def main():
 
   st.logo('linkedin.webp', icon_image='avatar.webp', link='https://www.linkedin.com/in/ghislain-bernard')
 
-  st.button('Rerun')
+  st.button('Rerun', type='primary')
 
   ########################
 
