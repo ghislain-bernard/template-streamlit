@@ -45,11 +45,13 @@ hr {
 
 /* sidebar */
 .stSidebar[aria-expanded='true'] {
-  max-width: 516px;
+  max-width: 506px;
 }
 
 div[data-testid='stSidebarContent'] {
   overflow: clip;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 /* icon */
