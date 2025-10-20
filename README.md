@@ -4,7 +4,7 @@
 
 ### usage
 
-```console
+```bash
 $ streamlit run view.py
 
   You can now view your Streamlit app in your browser.
