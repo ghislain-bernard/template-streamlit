@@ -39,8 +39,12 @@ hr {
 }
 
 /* main */
+.stMain {
+  scrollbar-width: none;
+}
+
 .stMainBlockContainer {
-  padding: 1rem 3rem;
+  padding: 1rem 2rem;
 }
 
 /* sidebar */
@@ -49,9 +53,13 @@ hr {
 }
 
 div[data-testid='stSidebarContent'] {
-  overflow: clip;
   padding-left: 1rem;
   padding-right: 1rem;
+  scrollbar-width: none;
+}
+
+div[data-testid='stSidebarUserContent'] {
+  padding-bottom: 1rem;
 }
 
 /* icon */
